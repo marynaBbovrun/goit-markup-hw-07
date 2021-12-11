@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --primary-title-color: #212121;
   --secondary-text-color: #757575;
@@ -7,7 +7,7 @@
   --second-logo-color: #000000;
   --secondary-white-color: #ffffff;
   --third-white-color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 p,
 h1,
@@ -66,7 +66,7 @@ body {
 }
 
 /* site nav */
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 .header-logo {
@@ -178,9 +178,9 @@ body {
 .header-social-icon {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 /* hero */
-.hero {
+/* .hero {
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -213,20 +213,19 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-white-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
   margin: 0 auto;
   margin-top: 30px;
-
-  radius: 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px rgba(0, 0, 0, 0.25);
 }
 .hero-right {
   padding-top: 200px;
   padding-bottom: 200px;
-}
+} */
 
 .backdrop {
   width: 100vw;
@@ -381,8 +380,6 @@ body {
   justify-content: center;
 }
 
-.icon-check {
-}
 .modal-check:checked + .modal-check-text span {
   background-color: var(--accent-color);
   border: none;
@@ -412,7 +409,6 @@ body {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 30px;
-  
 }
 .modal-btn:focus,
 .modal-btn:hover {
@@ -443,8 +439,7 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.feature-icon {
-}
+
 .feature-container {
   width: 270px;
   height: 120px;
@@ -513,8 +508,7 @@ body {
   color: var(--primary-title-color);
   margin-bottom: 50px;
 }
-.classes-title {
-}
+
 .classes-section {
   padding-left: 15px;
   padding-right: 15px;
@@ -552,10 +546,8 @@ body {
 .command {
   padding-top: 94px;
   background-color: #f5f4fa;
-  
 }
-.command-title {
-}
+
 .command-list {
   display: flex;
   flex-wrap: wrap;
@@ -638,7 +630,7 @@ body {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .clients-link {
@@ -776,7 +768,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .online-btn {
   margin-left: 12px;
@@ -790,14 +782,9 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  padding-right: 28px
-  border-radius: 4px;
-  border: none;
-  width: 200px;
-  
+  padding-right: 28px;
 }
-.online-btn-icon {
-}
+
 /*-------PORTFOLIO------*/
 
 /* work */
