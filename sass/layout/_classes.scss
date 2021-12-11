@@ -1,17 +1,19 @@
-.classes-section {
+.classes__section {
   padding-left: 15px;
   padding-right: 15px;
 }
-.classes-list {
+.classes__list {
   display: flex;
 }
-.classes-item:not(:last-child) {
-  margin-right: 30px;
+.classes__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .thumb {
   position: relative;
 }
-.classes-dir {
+.classes__dir {
   background-color: rgba(47, 48, 58, 0.8);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 370px;
@@ -23,7 +25,7 @@
   left: 0;
   bottom: 0;
 }
-.classes-label {
+.classes__label {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

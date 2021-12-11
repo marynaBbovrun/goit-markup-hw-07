@@ -1,21 +1,21 @@
 .feature {
   padding-top: 74px;
 }
-.feature-link {
+.feature__link {
   display: flex;
   justify-content: center;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.feature-container {
+.feature__container {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.feature-icon {
+.feature__icon {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -36,7 +36,7 @@
 .icon-astronavt {
   background-image: url('../images/astronaut\ 1.svg');
 }
-.feature-subtitle {
+.feature__subtitle {
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -46,20 +46,20 @@
   text-align: left;
   color: var(--primary-title-color);
 }
-.feature-list {
+.feature__list {
   display: flex;
 }
-.feature-item {
+.feature__item {
   margin-right: 30px;
   &:last-child {
     margin-right: 30px;
   }
 }
 
-.feature-subtitle {
+.feature__subtitle {
   margin-bottom: 10px;
 }
-.feature-text {
+.feature__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
