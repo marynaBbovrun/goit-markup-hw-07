@@ -21,7 +21,7 @@
   <header class="header">
     <div class="container header__conteiner">
       <nav class="header__navigation">
-        <a href="/" class="header__logo logo link">
+        <a href="/" class="logo link">
           <span class="logo__lft">Web</span><span class="logo__right">Studio</span>
         </a>
         <ul class="site-nav list">
@@ -406,7 +406,7 @@
       <ul class="footer-container">
         <li class="footer-container__address">
           <a href="/" class="logo link">
-            <span class="logo-lft">Web</span><span class="logo-right-footer">Studio</span>
+            <span class="logo__lft">Web</span><span class=" logo__right logo-right-footer">Studio</span>
           </a>
 
           <ul class="footer-address">
@@ -485,55 +485,55 @@
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button data-modal-close type="button" class="modal-close">
-        <svg class="close-icon" width="18" height="18">
+      <button data-modal-close type="button" class="modal__close">
+        <svg class="modal__close-icon" width="18" height="18">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1">
         </svg>
       </button>
-      <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-      <form action="#" class="modal-form">
-        <div class="modal-form-field">
-          <label for="user-name" class="modal-imput-text">Имя</label>
-          <div class="modal-imput-wrap">
-            <input type="name" name="user-name" class="modal-input" id="user-name" />
-            <svg class="modal-imput-icon" width="18" height="18">
+      <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+      <form action="#" class="modal__form">
+        <div class="modal__form-field">
+          <label for="user-name" class="modal__imput-text">Имя</label>
+          <div class="modal__imput-wrap">
+            <input type="name" name="user-name" class="modal__input" id="user-name" />
+            <svg class="modal__imput-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
           </div>
         </div>
-        <div class="modal-form-field">
-          <label for="user-tel" class="modal-imput-text">Телефон</label>
-          <div class="modal-imput-wrap">
-            <input type="tel" name="user-tel" class="modal-input" id="user-tel" />
-            <svg class="modal-imput-icon" width="18" height="18">
+        <div class="modal__form-field">
+          <label for="user-tel" class="modal__imput-text">Телефон</label>
+          <div class="modal__imput-wrap">
+            <input type="tel" name="user-tel" class="modal__input" id="user-tel" />
+            <svg class="modal__imput-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </div>
         </div>
-        <div class="modal-form-field">
-          <label for="user-email" class="modal-imput-text">Почта</label>
-          <div class="modal-imput-wrap">
-            <input type="email" name="user-email" class="modal-input" id="user-email" />
-            <svg class="modal-imput-icon" width="18" height="18">
+        <div class="modal__form-field">
+          <label for="user-email" class="modal__imput-text">Почта</label>
+          <div class="modal__imput-wrap">
+            <input type="email" name="user-email" class="modal__input" id="user-email" />
+            <svg class="modal__imput-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
             </svg>
           </div>
         </div>
-        <div class="modal-form-fields">
-          <label for="user-coment" class="modal-imput-text">Комментарий</label>
-          <textarea name="user-coment" class="modal-coment" id="user-coment" placeholder="Введите текст"></textarea>
+        <div class="modal__form-fields">
+          <label for="user-coment" class="modal__imput-text">Комментарий</label>
+          <textarea name="user-coment" class="modal__coment" id="user-coment" placeholder="Введите текст"></textarea>
         </div>
-        <div class="modal-form-field">
-          <input type="checkbox" name="policy" id="modal-check" class="modal-check visually-hidden" />
-          <label for="modal-check" class="modal-check-text">
+        <div class="modal__form-field">
+          <input type="checkbox" name="policy" id="modal-check" class="modal__check visually-hidden" />
+          <label for="modal-check" class="modal__check-text">
             <span>
-              <svg class="icon-check" width="16" height="15">
+              <svg class="modal__icon-check" width="16" height="15">
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg></span>
             Соглашаюсь с рассылкой и принимаю
-            <a href="/" class="modal-check-link"> Условия договора</a></label>
+            <a href="/" class="modal__check-link"> Условия договора</a></label>
         </div>
-        <button type="submit" class="modal-btn">Отправить</button>
+        <button type="submit" class="modal__btn">Отправить</button>
 
       </form>
     </div>

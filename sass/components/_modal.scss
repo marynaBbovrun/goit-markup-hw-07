@@ -21,8 +21,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transition: opacity 300ms;
+  padding: 40px;
 }
-.modal-close {
+.modal__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -40,16 +41,13 @@
   }
 }
 
-.close-icon {
+.modal__close-icon {
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal {
-  padding: 40px;
-}
-.modal-title {
+.modal__title {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -60,20 +58,20 @@
   margin-bottom: 12px;
 }
 
-.modal-form-field {
+.modal__form-field {
   margin-bottom: 10px;
 }
-.modal-imput-wrap {
+.modal__imput-wrap {
   position: relative;
 }
-.modal-imput-icon {
+.modal__imput-icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input {
+.modal__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -83,7 +81,7 @@
   padding-right: 11px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus + .modal-imput-icon {
+  &:focus + .modal__imput-icon {
     fill: var(--accent-color);
   }
   &:focus {
@@ -91,7 +89,7 @@
   }
 }
 
-.modal-imput-text {
+.modal__imput-text {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -102,7 +100,7 @@
   margin-bottom: 4px;
   display: block;
 }
-.modal-coment {
+.modal__coment {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -126,7 +124,7 @@
   }
 }
 
-.modal-check-text {
+.modal__check-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -149,17 +147,17 @@
   }
 }
 
-.modal-check {
-  :checked + .modal-check-text span {
+.modal__check {
+  &:checked + .modal__check-text span {
     background-color: var(--accent-color);
     border: none;
   }
 }
 
-.modal-check-link {
+.modal__check-link {
   color: var(--accent-color);
 }
-.modal-btn {
+.modal__btn {
   padding: 10px;
   padding-bottom: 10px;
   padding-left: 56px;

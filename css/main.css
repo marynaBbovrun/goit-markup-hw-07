@@ -103,10 +103,40 @@ body {
   align-items: center;
 }
 
-.header__logo {
+.logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.logo__lft {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-logo-color);
+}
+
+.logo__right {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+}
+
+.logo-right-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
 }
 
 .site-nav {
@@ -143,36 +173,6 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-}
-
-.logo__lft {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--first-logo-color);
-}
-
-.logo__right {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--second-logo-color);
-}
-
-.logo-right-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--secondary-white-color);
 }
 
 .header__navigation {
@@ -509,6 +509,36 @@ body {
   display: flex;
 }
 
+.logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo__lft {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-logo-color);
+}
+
+.logo__right {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-logo-color);
+}
+
+.logo-right-footer {
+  color: var(--secondary-white-color);
+}
+
 .footer-address__address {
   font-style: normal;
   font-weight: normal;
@@ -786,9 +816,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: opacity 300ms;
+  padding: 40px;
 }
 
-.modal-close {
+.modal__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -801,21 +832,17 @@ body {
   align-items: center;
   justify-content: center;
 }
-.modal-close:focus, .modal-close:hover {
+.modal__close:focus, .modal__close:hover {
   fill: var(--accent-color);
 }
 
-.close-icon {
+.modal__close-icon {
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal {
-  padding: 40px;
-}
-
-.modal-title {
+.modal__title {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -826,15 +853,15 @@ body {
   margin-bottom: 12px;
 }
 
-.modal-form-field {
+.modal__form-field {
   margin-bottom: 10px;
 }
 
-.modal-imput-wrap {
+.modal__imput-wrap {
   position: relative;
 }
 
-.modal-imput-icon {
+.modal__imput-icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -842,7 +869,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input {
+.modal__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -853,14 +880,14 @@ body {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus + .modal-imput-icon {
+.modal__input:focus + .modal__imput-icon {
   fill: var(--accent-color);
 }
-.modal-input:focus {
+.modal__input:focus {
   border-color: var(--accent-color);
 }
 
-.modal-imput-text {
+.modal__imput-text {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -872,7 +899,7 @@ body {
   display: block;
 }
 
-.modal-coment {
+.modal__coment {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -883,7 +910,7 @@ body {
   margin-bottom: 20px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-coment::-moz-placeholder {
+.modal__coment::-moz-placeholder {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -892,7 +919,7 @@ body {
   text-align: left;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-coment:-ms-input-placeholder {
+.modal__coment:-ms-input-placeholder {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -901,7 +928,7 @@ body {
   text-align: left;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-coment::placeholder {
+.modal__coment::placeholder {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -910,11 +937,11 @@ body {
   text-align: left;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-coment:focus {
+.modal__coment:focus {
   border-color: var(--accent-color);
 }
 
-.modal-check-text {
+.modal__check-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -926,7 +953,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.modal-check-text span {
+.modal__check-text span {
   width: 16px;
   height: 15px;
   border: 2px solid #000000;
@@ -937,16 +964,16 @@ body {
   justify-content: center;
 }
 
-.modal-check :checked + .modal-check-text span {
+.modal__check:checked + .modal__check-text span {
   background-color: var(--accent-color);
   border: none;
 }
 
-.modal-check-link {
+.modal__check-link {
   color: var(--accent-color);
 }
 
-.modal-btn {
+.modal__btn {
   padding: 10px;
   padding-bottom: 10px;
   padding-left: 56px;
@@ -969,6 +996,6 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 30px;
 }
-.modal-btn:focus, .modal-btn:hover {
+.modal__btn:focus, .modal__btn:hover {
   background-color: #188ce8;
 }/*# sourceMappingURL=main.css.map */
