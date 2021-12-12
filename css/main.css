@@ -515,6 +515,11 @@ body {
   padding-bottom: 25px;
 }
 
+.logo_footer {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo__lft {
   font-family: Raleway;
   font-style: normal;
@@ -673,10 +678,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-white-color);
   background: var(--accent-color);
+  width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 29px;
-  padding-right: 28px;
 }
 
 .work {
